@@ -11,7 +11,7 @@ app.set("views",path.join(__dirname,"/views"))
 app.get("/pughome",(req,res)=>{
     res.render("demo.pug",{title:"Pug title",message:"pug header",para:"sa re g MA PA DHA NI SA"})
 })
-app.get("/home",(req,res)=>{
+app.get("/",(req,res)=>{
     res.sendFile(path.join(__dirname,"/public/home.html"))
 })
 app.get("/about",(req,res)=>{
