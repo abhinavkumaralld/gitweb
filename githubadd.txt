@@ -1,0 +1,16 @@
+touch .gitignore
+git config --global user.name
+git config --global user.name
+git init
+git add .
+git commit -m "commit statement"
+git add remote origin shhurlcopiedfromgithub   //is url me folder upload hoga
+git push origin master
+
+//if ssh url is private ,do this
+ ssh-keygen -t ed25519 -C "youremail@gmail.com"
+ enter next,yes,next,next then a ssh key path will be generated,copy itand
+ cat <paste copied path>
+ a code will be generated, copy it and paste to github ssh key 
+ now you will be accessed to upload file
+
