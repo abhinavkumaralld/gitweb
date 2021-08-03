@@ -4,7 +4,8 @@
   "description": "its my package",
   "main": "nd.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node nd.js"
   },
   "author": "bau",
   "license": "ISC",
